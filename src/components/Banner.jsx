@@ -35,7 +35,7 @@ function Banner() {
   return (
     <Container>
       <Text>
-        <Header>Smart Banking For Freelancers</Header>
+        <Header>Smart Banking for Freelancers</Header>
         <Paragraph>
           scheme that allow content creators to embed small files inline in
           documents, you can read more about it here. This approach allows us to

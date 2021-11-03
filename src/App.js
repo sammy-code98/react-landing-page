@@ -2,6 +2,7 @@ import React from "react";
 import Nav from "./components/Nav.jsx";
 import Banner from "./components/Banner";
 import Card from "./components/Card";
+import Graph from "./components/Graph";
 import styled from "styled-components";
 
 const Container = styled.div`
@@ -22,6 +23,7 @@ function App() {
       <Main>
         <Banner />
         <Card />
+        <Graph/>
       </Main>
       <Footer>footer </Footer>
     </Container>

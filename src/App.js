@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from "./components/Nav.jsx";
-import Banner from "./components/Banner"
+import Banner from "./components/Banner";
+import Card from "./components/Card";
 import styled from "styled-components";
 
 const Container = styled.div`
@@ -20,6 +21,7 @@ function App() {
       <Nav />
       <Main>
         <Banner />
+        <Card />
       </Main>
       <Footer>footer </Footer>
     </Container>

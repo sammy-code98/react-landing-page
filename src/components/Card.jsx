@@ -22,9 +22,9 @@ const ImgContainer = styled.div`
 const CardHeader = styled.h5`
   font-size: 45px;
   text-align: center;
-  color: grey;
+  color: #2D22EE;
   margin: 10px;
-  font-weight: 500;
+  font-weight: bold;
   font-family: "Open Sans", sans-serif;
 `;
 const Paragraph = styled.p`
@@ -39,7 +39,7 @@ function Card() {
   return (
     <Container>
       <CardText>
-        <CardHeader>One Card For All Your Payments</CardHeader>
+        <CardHeader>One card for all your payments</CardHeader>
         <Paragraph>
           Get 5% back on everything you buy with the draft card. Register today
           and enjoy every aspect of your business

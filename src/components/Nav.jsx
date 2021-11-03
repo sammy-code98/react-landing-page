@@ -25,6 +25,7 @@ const ListItem = styled.li`
   margin-left: 50px;
   margin-right: 50px;
   cursor: pointer;
+  font-weight:bold;
   font-family: "Open Sans", sans-serif;
 `;
 const Header = styled.h1`
@@ -60,5 +61,6 @@ const buttonStyle = {
   display: "inline-block",
   cursor: "pointer",
   fontFamily: "Open Sans",
+  fontWeight: "bold",
 };
 export default Nav;

@@ -30,6 +30,16 @@ const Paragraph = styled.p`
   text-align: center;
   font-family: "Open Sans", sans-serif;
 `;
+const Button = styled.button`
+  background: #16194f;
+  padding: 12px;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  cursor:pointer;
+  margin:auto 240px;
+  transform:translateX(50%)
+`;
 
 function Banner() {
   return (
@@ -41,6 +51,7 @@ function Banner() {
           documents, you can read more about it here. This approach allows us to
           use SVG images like an inline element.
         </Paragraph>
+        <Button>Register Now</Button>
       </Text>
 
       <BanImg>

@@ -8,12 +8,18 @@ const Navigation = styled.nav`
   height: 50px;
   background: #2d22ee;
   color: #fff;
+  position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+  z-index:1;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+ 
 `;
 const List = styled.ul`
   display: flex;
   justify-content: space-around;
   list-style: none;
+  
 `;
 const ListItem = styled.li`
   margin-left: 50px;

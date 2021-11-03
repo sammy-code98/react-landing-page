@@ -1,5 +1,6 @@
 import React from "react";
 import Nav from "./components/Nav.jsx";
+import Banner from "./components/Banner"
 import styled from "styled-components";
 
 const Container = styled.div`
@@ -17,7 +18,9 @@ function App() {
   return (
     <Container>
       <Nav />
-      <Main>loremque</Main>
+      <Main>
+        <Banner />
+      </Main>
       <Footer>footer </Footer>
     </Container>
   );

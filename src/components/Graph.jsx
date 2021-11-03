@@ -48,7 +48,7 @@ function Graph() {
       <GraphContainer>
         <GraphImg
           style={{
-            height: "400px",
+            height: "300px",
             width: "100%",
             boxShadow: "rgba(100, 100, 111, 0.2) 0px 0px 0px 0px",
           }}

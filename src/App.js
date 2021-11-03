@@ -3,6 +3,7 @@ import Nav from "./components/Nav.jsx";
 import Banner from "./components/Banner";
 import Card from "./components/Card";
 import Graph from "./components/Graph";
+import Support from "./components/Support"
 import styled from "styled-components";
 
 const Container = styled.div`
@@ -24,6 +25,7 @@ function App() {
         <Banner />
         <Card />
         <Graph/>
+        <Support/>
       </Main>
       <Footer>footer </Footer>
     </Container>

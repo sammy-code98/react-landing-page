@@ -4,6 +4,7 @@ import Banner from "./components/Banner";
 import Card from "./components/Card";
 import Graph from "./components/Graph";
 import Support from "./components/Support"
+import Pricing from "./components/Pricing.jsx";
 import styled from "styled-components";
 
 const Container = styled.div`
@@ -26,6 +27,7 @@ function App() {
         <Card />
         <Graph/>
         <Support/>
+        <Pricing/>
       </Main>
       <Footer>footer </Footer>
     </Container>

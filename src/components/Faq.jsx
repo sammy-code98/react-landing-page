@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Acordion from './Acordion'
 
 const Container = styled.section`
   margin-top: 100px;
@@ -35,6 +36,7 @@ function Faq() {
         need to add some metadata that gives other components more information
       </Paragraph>
       </div>
+      <Acordion/>
       
     </Container>
   );

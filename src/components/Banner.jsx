@@ -7,7 +7,7 @@ const Container = styled.section`
   width: 100%;
   justify-content: center;
   align-items: center;
-  margin-top: -50px;
+  margin-top: -10px;
 `;
 const BanImg = styled.div`
   width: 50%;

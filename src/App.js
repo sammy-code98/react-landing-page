@@ -5,6 +5,7 @@ import Card from "./components/Card";
 import Graph from "./components/Graph";
 import Support from "./components/Support"
 import Pricing from "./components/Pricing.jsx";
+import Faq from "./components/Faq"
 import styled from "styled-components";
 
 const Container = styled.div`
@@ -28,6 +29,7 @@ function App() {
         <Graph/>
         <Support/>
         <Pricing/>
+        <Faq/>
       </Main>
       <Footer>footer </Footer>
     </Container>

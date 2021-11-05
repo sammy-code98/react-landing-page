@@ -33,6 +33,8 @@ const Paragraph = styled.p`
   font: 18px;
   text-align: center;
   font-family: "Open Sans", sans-serif;
+  color:#6A6D93;
+
 `;
 
 function Card() {

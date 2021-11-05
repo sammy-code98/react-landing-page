@@ -32,6 +32,7 @@ const Paragraph = styled.p`
   margin: 30px;
   line-height: 1.5rem;
   color: #6a6d93;
+  
 `;
 const Button = styled.button`
   background: #fff;

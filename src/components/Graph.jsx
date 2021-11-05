@@ -31,6 +31,8 @@ const Paragraph = styled.p`
   font: 18px;
   text-align: justify;
   font-family: "Open Sans", sans-serif;
+  color:#6A6D93;
+
 `;
 const Button = styled.button`
   background: #16194f;

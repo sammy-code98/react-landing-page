@@ -29,7 +29,7 @@ function Acordion() {
             key={index}
             faq={faq}
             onToggle={() => handleToggle(index)}
-            active={clicked === index}
+            clicked={clicked === index}
           />
         ))}
       </AccordList>

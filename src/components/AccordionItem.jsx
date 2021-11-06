@@ -21,7 +21,7 @@ const Button = styled.button`
   justify-content: space-between;
   align-items: center;
   padding: 18px 28px;
-  margin: 28px;
+  margin: 20px;
   cursor: pointer;
   border: none;
   border-radius: 12px;
@@ -36,9 +36,9 @@ const Control = styled.span`
   font-size: 20px;
 `;
 const AnswerWrapper = styled.div`
-  margin: 30px;
+  margin-top: 20px;
   width: 100%;
-  max-height: ${(props) => (props.clicked ? '100px' : '0')};
+  max-height: ${(props) => (props.clicked ? '300px' : '0')};
   transition: all 1s ease-in-out;
   overflow: hidden;
 

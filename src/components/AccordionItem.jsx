@@ -39,20 +39,23 @@ const Answer = styled.div`
   padding: 18px 28px;
   margin: 28px;
   border-radius: 12px;
-  line-height:2rem;
-  color:#6A6D93;
-
-  `;
-function AccordionItem({ faq }) {
+  line-height: 2rem;
+  color: #6a6d93;
+`;
+function AccordionItem({ faq, active, onToggle }) {
   // destructure props here
   const { question, answer } = faq;
   return (
-    <List>
-      <Button>
+    <List className={`item ${active ? "active" : ""}`}>
+      <Button onClick={onToggle}>
         {question}
-        <Control />
-        {""}
-        <Icon path={mdiPlus} size={5 / 6} color="#16194F" />
+        <Control>
+          {active ? (
+            <Icon path={mdiMinus} size={5 / 6} color="#16194F" />
+          ) : (
+            <Icon path={mdiPlus} size={5 / 6} color="#16194F" />
+          )}
+        </Control>
       </Button>
       <AnswerWrapper>
         <Answer>{answer}</Answer>

@@ -11,7 +11,7 @@ const List = styled.li`
 `;
 const Button = styled.button`
   font-size: 16px;
-  background-color: #ffffff;
+  background-color: ({active}) => active ? #fff : transparent;
   color: #6a6d93;
   text-align: left;
   font-weight: 700;
@@ -26,6 +26,7 @@ const Button = styled.button`
   border: none;
   border-radius: 12px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+ 
 `;
 const Control = styled.span`
   font-size: 20px;
@@ -46,7 +47,7 @@ function AccordionItem({ faq, active, onToggle }) {
   // destructure props here
   const { question, answer } = faq;
   return (
-    <List className={`item ${active ? "active" : ""}`}>
+    <List active={active}>
       <Button onClick={onToggle}>
         {question}
         <Control>

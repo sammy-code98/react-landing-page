@@ -1,8 +1,10 @@
 # Simple Landing Page
 This is a simple Landing page application built with React and Styled Components
+
+
 Feel free to modify it to your needs.
 
-# Getting Started with Create React App
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

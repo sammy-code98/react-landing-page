@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from "styled-components";
-import { ReactComponent as CardImg } from "../asset/card.svg";
+import { ReactComponent as CardImg } from "../../asset/card.svg";
 
 import Icon from "@mdi/react";
 import { mdiCheck } from "@mdi/js";
@@ -32,6 +32,7 @@ const Paragraph = styled.p`
   margin: 30px;
   line-height: 1.5rem;
   color: #6a6d93;
+  
 `;
 const Button = styled.button`
   background: #fff;
@@ -60,9 +61,9 @@ function FreeCard() {
     return (
         
             <Free>
-        <Header>Premium</Header>
+        <Header>Free</Header>
         <Amount>
-          $100<span style={{ fontSize: "20px", color: "#000000" }}>/m</span>
+          $0<span style={{ fontSize: "20px", color: "#000000" }}>/m</span>
         </Amount>
         <Paragraph>
           Manage your business with a simple and efficient account
@@ -85,14 +86,14 @@ function FreeCard() {
             <Icon path={mdiCheck} size={3/5} style={{padding:'2px'}}  color="#2D22EE"/>
             Free ATM  withdrawals  in Dollar up to $250 per month
           </li>
-          <li style={{ color: "#2D22EE"}}>
+          <li style={{ color: "#E5E5E5"}}>
             {" "}
-            <Icon path={mdiCheck} size={3/5} style={{padding:'2px'}}  color="#2D22EE"/>
+            <Icon path={mdiCheck} size={3/5} style={{padding:'2px'}}  color="#E5E5E5"/>
             Free ATM  withdrawals  in Dollar up to $250 per month
           </li>
-          <li style={{ color: "#2D22EE"}}>
+          <li style={{ color: "#E5E5E5"}}>
             {" "}
-            <Icon path={mdiCheck} size={3/5} style={{padding:'2px'}}  color="#2D22EE"/>
+            <Icon path={mdiCheck} size={3/5} style={{padding:'2px'}}  color="#E5E5E5"/>
             Free ATM  withdrawals  in Dollar up to $250 per month
           </li>
         </List>

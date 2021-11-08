@@ -6,6 +6,7 @@ import Graph from "./components/Graph";
 import Support from "./components/Support"
 import Pricing from "./components/Pricing.jsx";
 import Faq from "./components/Faq"
+import Foot from "./components/Footer"
 import styled from "styled-components";
 
 const Container = styled.div`
@@ -31,7 +32,9 @@ function App() {
         <Pricing/>
         <Faq/>
       </Main>
-      <Footer>footer </Footer>
+      <Footer> 
+        <Foot/>
+      </Footer>
     </Container>
   );
 }

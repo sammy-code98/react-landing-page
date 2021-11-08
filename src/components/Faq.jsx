@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Acordion from './Acordion'
+import Acordion from './accordion/Acordion'
 
 const Container = styled.section`
   margin-top: 100px;

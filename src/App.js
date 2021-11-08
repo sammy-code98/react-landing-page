@@ -1,12 +1,12 @@
 import React from "react";
-import Nav from "./components/Nav.jsx";
-import Banner from "./components/Banner";
+import Nav from "./components/navigation/Nav.jsx";
+import Banner from "./components/navigation/Banner";
 import Card from "./components/Card";
 import Graph from "./components/Graph";
 import Support from "./components/Support"
 import Pricing from "./components/Pricing";
 import Faq from "./components/Faq"
-import Foot from "./components/Footer"
+import Foot from "./components/footer/Footer"
 import styled from "styled-components";
 
 const Container = styled.div`

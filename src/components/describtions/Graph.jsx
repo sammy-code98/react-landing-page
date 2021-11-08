@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { ReactComponent as GraphImg } from "../asset/graph.svg";
+import { ReactComponent as GraphImg } from "../../asset/graph.svg";
 
 const Container = styled.section`
   display: flex;

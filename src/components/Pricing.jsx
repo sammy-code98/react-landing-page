@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import PriceCard from "./PriceCard";
+import PriceCard from "./priceCard/PriceCard";
 import Feather from "../asset/feather.svg";
 const Container = styled.section`
   width: 100%;

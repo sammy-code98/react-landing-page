@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { ReactComponent as BannerImg } from "../asset/phone.svg";
+import { ReactComponent as BannerImg } from "../../asset/phone.svg";
 
 const Container = styled.section`
   display: flex;

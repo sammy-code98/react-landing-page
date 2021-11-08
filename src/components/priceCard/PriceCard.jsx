@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import FreeCard from './priceUtility/FreeCard'
-import PremiumCard from './priceUtility/PremiumCard'
+import FreeCard from '../priceUtility/FreeCard'
+import PremiumCard from '../priceUtility/PremiumCard'
 
 const Container = styled.section`
   display: flex;

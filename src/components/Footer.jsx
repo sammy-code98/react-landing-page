@@ -33,11 +33,15 @@ const Links = styled.div`
 `;
 
 const LinkList = styled.ul`
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
 `;
 const LinkItem = styled.li`
   list-style-type: none;
+  margin:20px;
+  cursor:pointer;
+  color: #6a6d93;
+
 `;
 
 function Foot() {
@@ -56,6 +60,9 @@ function Foot() {
           <LinkItem>Home</LinkItem>
           <LinkItem>Home</LinkItem>
           <LinkItem>Home</LinkItem>
+          <LinkItem>Home</LinkItem>
+          <LinkItem>Home</LinkItem>
+
         </LinkList>
       </Links>
     </Container>

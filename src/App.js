@@ -4,7 +4,7 @@ import Banner from "./components/Banner";
 import Card from "./components/Card";
 import Graph from "./components/Graph";
 import Support from "./components/Support"
-import Pricing from "./components/Pricing.jsx";
+import Pricing from "./components/pricing/Pricing";
 import Faq from "./components/Faq"
 import Foot from "./components/Footer"
 import styled from "styled-components";

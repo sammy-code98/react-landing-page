@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 
-import { faqs } from "../AccordionData";
+import { faqs } from "../../AccordionData";
 import AccordionItem from "./AccordionItem";
 
 const Container = styled.section`

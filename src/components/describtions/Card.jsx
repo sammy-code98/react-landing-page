@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { ReactComponent as CardImg } from "../asset/card.svg";
+import { ReactComponent as CardImg } from "../../asset/card.svg";
 
 const Container = styled.section`
   display: flex;

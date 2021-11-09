@@ -34,12 +34,20 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 
 
+### Demo 
+
+You can check it out [here](https://react-landing-page-seven.vercel.app/) 
 
 
 
 
 
+# Note
 
+Please view on big screen as this wasnt built with small screens in mind.
+
+
+You can Fork or clone the project and twerk it by making it responsive
 
 
 
